@@ -155,7 +155,7 @@ function FormAssociado({
     async function deleteAssociado() {
       try {
         const response = await axios.delete(
-          `http://localhost:4011/api/associados?codAssociado=${codAssociado}`
+          `https://eddieapmtbackend-bxfuxyemj-ricktrezes-projects.vercel.app/:4011/api/associados?codAssociado=${codAssociado}`
         );
         atualizaexecutaConsultaAssociado();
       } catch (error) {
@@ -313,7 +313,7 @@ function FormAssociado({
     async function postAssociado(objAssociado) {
       console.log("executaPost", objAssociado)
       try {
-        const response = await axios.post("http://localhost:4011/api/associados", objAssociado);
+        const response = await axios.post("https://eddieapmtbackend-bxfuxyemj-ricktrezes-projects.vercel.app/:4011/api/associados", objAssociado);
         // atualizaexecutaConsultaAssociado();
         alert("Missionário incluído com sucesso!")
       } catch (error) {

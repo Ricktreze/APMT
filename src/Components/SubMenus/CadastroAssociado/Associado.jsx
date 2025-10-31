@@ -46,9 +46,9 @@ function Associado({showModal, setShowModal}) {
       let url = ""
       console.log("handleSearchControl ",handleSearchControl)
       if (!handleSearchControl) {
-        url = `http://localhost:4011/api/associados?codAssociadoDe=${associadoDe}&&codAssociadoAte=${associadoAte}&&nomeAssociado=${nomeAssociado}`
+        url = `https://eddieapmtbackend-bxfuxyemj-ricktrezes-projects.vercel.app/:4011/api/associados?codAssociadoDe=${associadoDe}&&codAssociadoAte=${associadoAte}&&nomeAssociado=${nomeAssociado}`
       } else {
-        url = `http://localhost:4011/api/associados?nomeAssociado=${nomeAssociado}`
+        url = `https://eddieapmtbackend-bxfuxyemj-ricktrezes-projects.vercel.app/:4011/api/associados?nomeAssociado=${nomeAssociado}`
       }
       fetch(url)
         .then((response) => response.json())

@@ -19,7 +19,7 @@ function TableAssociado({associado, setAssociado,setIndiceAssociado}){
   useEffect(() => {
     function consultaAssociado() {
      
-        fetch(`http://localhost:4011/api/associados?codAssociadoDe=${associadoDe}&&codAssociadoAte=${associadoAte}`)
+        fetch(`https://eddieapmtbackend-bxfuxyemj-ricktrezes-projects.vercel.app/:4011/api/associados?codAssociadoDe=${associadoDe}&&codAssociadoAte=${associadoAte}`)
           .then((response) => response.json())
           .then((result) => {
             atualizaAssociado(result);
