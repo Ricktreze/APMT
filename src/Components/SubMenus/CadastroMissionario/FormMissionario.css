@@ -1,0 +1,623 @@
+.dadosM1{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+ 
+}
+
+.label-codM{
+  width: 8%; 
+ 
+}
+
+.label-nomeM{
+  width: 60%;
+}
+
+.label-casamentoM{
+  width: 25%;
+}
+
+.dadosM2{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.label-sexoM{
+  width: 8%; 
+ 
+}
+
+.label-nacionalidadeM{
+  width: 40%;
+}
+
+.label-nascimentoM{
+  width: 25%;
+}
+
+.label-idadeM{
+  width: 8%;
+}
+
+.dadosM3{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: solid rgba(128, 128, 128, 0.212) 1px;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.subM3{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.documentacaoM{
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 10%;
+}
+
+.dadosM4{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.label-saudeM{
+  width: 30%;
+}
+
+.label-aposentadoriaM{
+  width: 30%;
+}
+
+.label-seguroM{
+  width: 30%;
+}
+
+.dadosM5{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.subM5{
+  width: 30%;
+}
+
+.label-cepM{
+  width: 80%;
+}
+
+.btnBuscaM{
+  background-color: rgba(182, 180, 180, 0.322) !important;
+  margin-left: 5px;
+  border: solid rgba(128, 128, 128, 0.377) 1px;
+  margin-bottom: 3px;
+  }
+
+.btnBuscaM:hover{
+  background-color: rgba(128, 128, 128, 0.377) !important;
+  border: solid grey 1px;  
+}
+
+.label-enderecoM{
+  width: 60%; 
+}
+
+.label-bairroM{
+  width: 40%; 
+}
+
+.label-cidadeM{
+  width: 40%; 
+}
+
+.label-ufM{
+  width: 10%; 
+}
+
+.dadosM6{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between; 
+}
+
+.dadosM7{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.label-foneM{
+  width: 30%;
+}
+
+.label-mailM{
+  width: 60%;
+}
+
+.situacaoM{
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 10%;
+}
+
+.subM7{
+  width: 70%;
+  height: 70px;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  border: solid rgba(128, 128, 128, 0.212) 1px;
+  border-radius: 5px;
+  padding: 0.5% 2% 0% 2%;
+}
+
+.radio-situacaoM{
+  width: 40%;
+  border: none;
+  display: flex ;
+  flex-direction: row ;
+  justify-content: space-around;
+  margin-top: 4%;
+}
+
+.label-finalM{
+  width: 30%;
+}
+
+.dadosM8{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.subM8{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: solid rgba(128, 128, 128, 0.212) 1px;
+  border-radius: 5px;
+  padding: 0.5% 2% 0% 2%;
+}
+.parceriaM{
+  width: 100%;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.label-parceriaM{
+  text-decoration: underline;
+}
+
+.parceria-nomeM{
+  width: 45%;
+}
+
+.parceria-enderecoM{
+  width: 50%;
+}
+
+.parceria-bairroM{
+  width: 30%;
+}
+
+.parceria-cidadeM{
+  width: 30%;
+}
+
+.parceria-cepM{
+  width: 20%;
+}
+
+.parceria-ufM{
+  width: 10%;
+}
+
+.parceria-foneM{
+  width: 45%;
+}
+
+.parceria-mailM{
+  width: 50%;
+}
+
+.dadosM9{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.subM9{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: solid rgba(128, 128, 128, 0.212) 1px;
+  border-radius: 5px;
+  padding: 0.5% 2% 0% 2%;
+  margin-top: 2%;
+}
+
+.presbiterioM{
+  width: 100%;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.label-presbiterioM{
+  text-decoration: underline;
+}
+
+.presbiterio-nomeM{
+  width: 35%;
+}
+
+.presbiterio-secretarioM{
+  width: 30%;
+}
+
+.presbiterio-enderecoM{
+  width: 30%;
+}
+
+.presbiterio-bairroM{
+  width: 30%;
+}
+
+.presbiterio-cidadeM{
+  width: 30%;
+}
+
+.presbiterio-cepM{
+  width: 20%;
+}
+
+.presbiterio-ufM{
+  width: 10%;
+}
+
+.presbiterio-foneM{
+  width: 45%;
+}
+
+.presbiterio-mailM{
+  width: 50%;
+}
+
+.dadosM10{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+
+.formacao-seminarioM{
+  width: 35%;
+}
+
+.formacao-especialidadeM{
+  width: 35%;
+}
+
+.formacao-cursosM{
+  width: 100%;
+}
+
+.formacao-idiomasM{
+  width: 100%;
+}
+
+.formacao-transculturalM{
+  width: 100%;
+}
+
+.dadosM11{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.subM11{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: solid rgba(128, 128, 128, 0.212) 1px;
+  border-radius: 5px;
+  padding: 0.5% 2% 0% 2%;
+  margin-top: 2%;
+}
+
+.batismoM{
+  width: 100%;
+  font-weight: 500;
+}
+
+.label-batismoM{
+  text-decoration: underline;
+}
+
+.dataBatismoM{
+  width: 25%;
+  margin-top: 25px;
+}
+
+.igrejaBatismoM{
+  width: 60%;
+}
+
+.profissaoFeM{
+  width: 100%;
+  font-weight: 500;
+}
+
+.label-profissaoFeM{
+  text-decoration: underline;
+}
+
+.dataProfissaoFeM{
+  width: 25%;
+  margin-top: 25px;
+}
+
+.igrejaProfissaoFeM{
+  width: 60%;
+}
+
+.formacao-repasseM{
+  width: 60%;
+  margin-top: 3%;
+}
+
+.formacao-paisServM{
+  width: 35%;
+  margin-top: 3%;
+}
+
+.formacao-emergenciaM{
+  width: 100%;
+}
+
+.formacao-obsM{
+  width: 100%;
+}
+
+.dadosM12{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+
+.familia-lacoM{
+  width: 8%;
+}
+
+.familia-nomeM{
+  width: 70%;
+}
+
+.familia-nascimentoM{
+  width: 20%;
+}
+
+.familia-sexoM{
+  width: 8%;
+}
+
+.familia-nacionalidadeM{
+  width: 70%;
+}
+
+.familia-idadeM{
+  width: 20%;
+}
+
+.familia-cpfM{
+  width: 20%;
+}
+
+.familia-rgM{
+  width: 20%;
+}
+
+.familia-eleitorM{
+  width: 25%;
+}
+
+.familia-cnhM{
+  width: 25%;
+}
+
+.familia-ctpsM{
+  width: 30%;
+}
+
+.familia-passaporteM{
+  width: 30%;
+}
+
+.familia-inssM{
+  width: 30%;
+}
+
+.familia-saudeM{
+  width: 30%;
+}
+
+.familia-aposentadoriaM{
+  width: 30%;
+}
+
+.familia-seguroM{
+  width: 30%;
+}
+
+.familia-seminarioM{
+  width: 35%;
+}
+
+.familia-especialidadeM{
+  width: 35%;
+}
+
+.familia-cursosM{
+  width: 48%;
+}
+
+.familia-idiomasM{
+  width: 48%;
+}
+
+.familia-obsM{
+  width: 48%;
+}
+
+.familia-mailM{
+  width: 48%;
+}
+
+.dadosM13{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.subM13{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: solid rgba(128, 128, 128, 0.212) 1px;
+  border-radius: 5px;
+  padding: 0.5% 2% 0% 2%;
+  margin-top: 2%;
+}
+
+.outros-requisitosM{
+  width: 100%;
+  font-weight: 500;
+}
+
+.label-requisitosM{
+  text-decoration: underline;
+}
+
+.outros-orientacaoM{
+  width: 22%;
+}
+
+.outros-cfmM{
+  width: 22%;
+}
+
+.outros-ctmM{
+  width: 22%;
+}
+
+.outros-testemunhoM{
+  width: 22%;
+}
+
+.outros-perfilM{
+  width: 22%;
+}
+
+.outros-apresentacaoM{
+  width: 22%;
+}
+
+.outros-projetoM{
+  width: 22%;
+}
+
+.outros-curriculoM{
+  width: 22%;
+}
+
+.outros-familiarM{
+  width: 100%;
+  font-weight: 500;
+}
+
+.label-familiarM{
+  text-decoration: underline;
+}
+
+.familiar-enderecoM{
+  width: 100%;
+}
+
+.familiar-nomeM{
+  width: 100%;
+}
+
+
+.familiar-endM{
+  width: 70%;  
+  margin-top: 3%;
+}
+
+.familiar-bairroM{
+  width: 30%;
+}
+
+.familiar-cidadeM{
+  width: 50%;
+}
+
+.familiar-ufM{
+  width: 10%;
+}
+
+.familiar-telM{
+  width: 48%;
+}
+
+.familiar-emailM{
+  width: 48%;
+}
+
+.editM{  
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly !important; 
+}
