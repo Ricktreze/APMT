@@ -50,7 +50,7 @@ function Associado({showModal, setShowModal}) {
       } else {
         url = `https://eddieapmtbackend-bxfuxyemj-ricktrezes-projects.vercel.app/:4011/api/associados?nomeAssociado=${nomeAssociado}`
       }
-      fetch(url)
+      fetch(url)   
         .then((response) => response.json())
         .then((result) => {
           atualizaAssociado(result);
